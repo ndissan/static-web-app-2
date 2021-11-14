@@ -7,7 +7,7 @@
     "azureFunctions.preDeployTask": "npm prune (functions)",
     "liveServer.settings.proxy": {
         "enable": true,
-        "baseUri": "/",
-        "proxyUri": "http://127.0.0.1:80"
+        "baseUri": "https://blue-flower-0ab7e690f.azurestaticapps.net",
+        "proxyUri": "https://www.gs1au.org/nlr"
     }
 }
