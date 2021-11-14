@@ -1,10 +1,10 @@
 {
-    "azureFunctions.deploySubpath": "api",
+    "azureFunctions.deploySubpath": "api/bin/Release/netcoreapp3.1/publish",
     "azureFunctions.postDeployTask": "npm install (functions)",
-    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectLanguage": "C#",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "azureFunctions.preDeployTask": "publish (functions)",
     "liveServer.settings.proxy": {
         "enable": true,
         "baseUri": "https://blue-flower-0ab7e690f.azurestaticapps.net",
